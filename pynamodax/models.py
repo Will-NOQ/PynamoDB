@@ -63,7 +63,7 @@ _T = TypeVar('_T', bound='Model')
 _KeyType = Any
 
 
-log = logging.getLogger(__name__)
+log = logging.getLogger("pynamodb")
 log.addHandler(logging.NullHandler())
 
 

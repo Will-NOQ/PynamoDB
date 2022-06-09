@@ -59,7 +59,7 @@ from pynamodax.types import HASH, RANGE
 BOTOCORE_EXCEPTIONS = (BotoCoreError, ClientError)
 RATE_LIMITING_ERROR_CODES = ['ProvisionedThroughputExceededException', 'ThrottlingException']
 
-log = logging.getLogger(__name__)
+log = logging.getLogger("pynamodb")
 log.addHandler(logging.NullHandler())
 
 
