@@ -6,7 +6,7 @@ from os import getenv
 
 from typing import Any, Optional, Mapping, ClassVar
 
-log = logging.getLogger(__name__)
+log = logging.getLogger("pynamodb")
 
 default_settings_dict = {
     'connect_timeout_seconds': 15,
